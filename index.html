@@ -539,7 +539,7 @@
           </div>
 
           <div class="col-lg-7">
-            <form action="https://formspree.io/f/mqawabrr" class="" data-aos="fade-up" data-aos-delay="200">
+            <form action="https://formspree.io/f/mqawabrr" method="POST" class="" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -563,9 +563,9 @@
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="loading" style="display:none;">Loading</div>
+                  <div class="error-message" style="display:none;"></div>
+                  <div class="sent-message" style="display:none;">Your message has been sent. Thank you!</div>
 
                   <button type="submit">Send Message</button>
                 </div>
@@ -602,7 +602,6 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
